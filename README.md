@@ -21,7 +21,7 @@ Welcome to the **QR Scanner App**! This app is your go-to tool for quickly scann
 
 ### 🔼 **History Tab**
 - Every scanned QR code is **saved to the history tab**.
-- Revisit previously scanned items anytime, even offline!
+- Revisit previously scanned items anytime!
 
 ### 🌟 **User-Friendly Design**
 - Clean and modern interface.
