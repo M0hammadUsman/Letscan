@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/scanFragment">
+
+    <fragment
+        android:id="@+id/scanFragment"
+        android:name="com.qrscanner.fragment.ScanFragment"
+        android:label="Scan QR">
+        <action
+            android:id="@+id/action_scan_to_result"
+            app:destination="@id/resultFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.qrscanner.fragment.ResultFragment"
+        android:label="Scan Result">
+        <argument
+            android:name="qrContent"
+            app:argType="string"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.qrscanner.fragment.HistoryFragment"
+        android:label="Scan History">
+    <action
+        android:id="@+id/action_history_to_result"
+        app:destination="@id/resultFragment"/>
+    </fragment>
+</navigation>
