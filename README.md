@@ -61,7 +61,7 @@ Welcome to the **QR Scanner App**! This app is your go-to tool for quickly scann
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/qr-scanner-app.git
+   git clone https://github.com/M0hammadUsman/letscan.git
    ```
 
 2. Open in Android Studio.
